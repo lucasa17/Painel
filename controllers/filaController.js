@@ -56,7 +56,6 @@ function atenderFila(){
 function buscarCpf() {
    const cpf = document.getElementById("txtnovoCPF").value;
    let cont = 0;
-console.log("aaaaaa");
    for (let item of minhaFila) {
       cont++;
       if (item.cpf === cpf) {
